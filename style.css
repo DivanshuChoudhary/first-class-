@@ -18,3 +18,53 @@ a{
 li{
     list-style:none;
 }
+
+.navbar{
+
+    width:90%;
+    margin:auto;
+
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+
+    padding:20px 0;
+}
+
+.logo{
+
+    font-size:28px;
+    font-weight:bold;
+
+    color:#38BDF8;
+}
+
+.nav-links{
+
+    display:flex;
+    gap:35px;
+}
+
+.nav-links a{
+
+    transition:.3s;
+}
+
+.nav-links a:hover{
+
+    color:#38BDF8;
+}
+
+.btn{
+
+    padding:12px 25px;
+
+    border:none;
+    border-radius:8px;
+
+    background:#38BDF8;
+
+    cursor:pointer;
+
+    font-weight:bold;
+}
