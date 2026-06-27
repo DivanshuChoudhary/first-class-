@@ -164,3 +164,48 @@ li{
 
     justify-content:center;
 }
+
+.server-card{
+
+    width:350px;
+
+    background:#1E293B;
+
+    padding:35px;
+
+    border-radius:20px;
+
+    box-shadow:0 0 35px rgba(56,189,248,.2);
+
+    animation:float 4s ease-in-out infinite;
+}
+
+.server-card h3{
+
+    font-size:28px;
+
+    margin-bottom:20px;
+}
+
+.server-card p{
+
+    margin:15px 0;
+
+    font-size:18px;
+}
+
+@keyframes float{
+
+    0%{
+        transform:translateY(0);
+    }
+
+    50%{
+        transform:translateY(-15px);
+    }
+
+    100%{
+        transform:translateY(0);
+    }
+
+}
