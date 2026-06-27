@@ -522,3 +522,56 @@ li{
 
     color:#94A3B8;
 }
+
+.faq{
+
+width:70%;
+
+margin:120px auto;
+}
+
+.faq h2{
+
+text-align:center;
+
+margin-bottom:50px;
+
+font-size:42px;
+}
+
+.faq-item{
+
+margin-bottom:20px;
+}
+
+.faq-question{
+
+width:100%;
+
+padding:20px;
+
+background:#1E293B;
+
+border:none;
+
+color:white;
+
+text-align:left;
+
+cursor:pointer;
+
+font-size:18px;
+
+border-radius:10px;
+}
+
+.faq-answer{
+
+display:none;
+
+padding:20px;
+
+background:#334155;
+
+border-radius:0 0 10px 10px;
+}
