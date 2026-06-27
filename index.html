@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+<title>DevLanding</title>
+
+<style>
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: white;
+}
+
+/* Navbar */
+nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 60px;
+  background: #111827;
+  position: sticky;
+  top: 0;
+}
+
+nav h1 {
+  color: #38bdf8;
+}
+
+nav ul {
+  display: flex;
+  gap: 20px;
+  list-style: none;
+}
+
+nav ul li {
+  cursor: pointer;
+}
+
+nav ul li:hover {
+  color: #38bdf8;
+}
+
+/* Hero */
+.hero {
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h2 {
+  font-size: 50px;
+}
+
+.hero span {
+  color: #38bdf8;
+}
+
+.hero p {
+  margin-top: 15px;
+  color: #94a3b8;
+  max-width: 500px;
+}
+
+.btn {
+  margin-top: 25px;
+  padding: 12px 25px;
+  border: none;
+  background: #38bdf8;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  border-radius: 8px;
+}
+
+/* Features */
+.features {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 60px;
+  flex-wrap: wrap;
+}
+
+.card {
+  background: #1e293b;
+  padding: 20px;
+  width: 250px;
+  border-radius: 10px;
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  background: #334155;
+}
+
+/* Footer */
+footer {
+  text-align: center;
+  padding: 20px;
+  background: #111827;
+  margin-top: 40px;
+}
+</style>
+
+</head>
+
+<body>
+
+<nav>
+  <h1>DevLanding</h1>
+  <ul>
+    <li>Home</li>
+    <li>Features</li>
+    <li>About</li>
+    <li>Contact</li>
+  </ul>
+</nav>
+
+<section class="hero">
+  <h2>Build <span>Modern Websites</span> Fast</h2>
+  <p>Learn HTML, CSS and JavaScript by building real-world landing pages and projects.</p>
+  <button class="btn" onclick="changeText()">Get Started</button>
+</section>
+
+<section class="features">
+  <div class="card">⚡ Fast Performance</div>
+  <div class="card">📱 Fully Responsive</div>
+  <div class="card">🎨 Modern UI Design</div>
+</section>
+
+<footer>
+  Made with ❤️ using HTML, CSS & JS
+</footer>
+
+<script>
+function changeText() {
+  document.querySelector(".hero h2").innerText = "Let's Start Coding 🚀";
+}
+</script>
+
+</body>
+</html>
