@@ -575,3 +575,60 @@ background:#334155;
 
 border-radius:0 0 10px 10px;
 }
+
+.newsletter{
+
+width:90%;
+
+margin:120px auto;
+
+text-align:center;
+
+background:#1E293B;
+
+padding:70px;
+
+border-radius:20px;
+}
+
+.newsletter h2{
+
+font-size:40px;
+
+margin-bottom:20px;
+}
+
+.newsletter p{
+
+margin-bottom:30px;
+
+color:#CBD5E1;
+}
+
+.newsletter input{
+
+width:350px;
+
+padding:15px;
+
+border:none;
+
+border-radius:10px;
+
+margin-right:15px;
+}
+
+.newsletter button{
+
+padding:15px 30px;
+
+border:none;
+
+background:#38BDF8;
+
+border-radius:10px;
+
+font-weight:bold;
+
+cursor:pointer;
+}
