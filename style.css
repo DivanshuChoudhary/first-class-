@@ -209,3 +209,114 @@ li{
     }
 
 }
+
+/* ==========================
+        Stats Section
+========================== */
+
+.stats{
+
+    width:90%;
+    margin:80px auto;
+
+    display:grid;
+
+    grid-template-columns:repeat(4,1fr);
+
+    gap:25px;
+}
+
+.stat{
+
+    background:#1E293B;
+
+    padding:35px;
+
+    border-radius:15px;
+
+    text-align:center;
+
+    transition:.3s;
+}
+
+.stat:hover{
+
+    transform:translateY(-10px);
+}
+
+.stat h2{
+
+    color:#38BDF8;
+
+    font-size:42px;
+
+    margin-bottom:10px;
+}
+
+.stat p{
+
+    color:#CBD5E1;
+}
+
+/* ==========================
+      Features Section
+========================== */
+
+.features{
+
+    width:90%;
+
+    margin:100px auto;
+}
+
+.features h2{
+
+    text-align:center;
+
+    font-size:40px;
+
+    margin-bottom:60px;
+}
+
+.feature-grid{
+
+    display:grid;
+
+    grid-template-columns:repeat(3,1fr);
+
+    gap:30px;
+}
+
+.feature-card{
+
+    background:#1E293B;
+
+    padding:35px;
+
+    border-radius:18px;
+
+    transition:.4s;
+
+    cursor:pointer;
+}
+
+.feature-card:hover{
+
+    transform:translateY(-12px);
+
+    box-shadow:0 0 25px rgba(56,189,248,.25);
+}
+
+.feature-card h3{
+
+    margin-bottom:18px;
+
+    color:#38BDF8;
+}
+
+.feature-card p{
+
+    line-height:1.7;
+
+    color:#CBD5E1;
+}
